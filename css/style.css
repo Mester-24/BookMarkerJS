@@ -1,0 +1,70 @@
+body{
+    background-color: #F7ECDE;
+}
+
+h1{
+    font-family: "Pacifico", cursive;
+    font-weight: 500;
+    font-size: 50px;
+}
+h1::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 25%;
+    left: 0;
+    bottom: 10px;
+    background-color: #fec260;
+    transition: height 350ms;
+    z-index: -1;
+    
+}
+h1:hover::before{
+height: 50%;
+}
+label{
+    font-weight: bold;
+    margin-top: 8px;
+}
+
+.bookmark-body h2 {
+    font-family: "Righteous", cursive;
+    font-size: 25px;
+    background-image: linear-gradient(to right, #3ca55c, #b5ac49);
+    background-clip: text;
+    color: transparent;
+    font-weight: bold;
+}
+
+
+.modal-body p{
+    font-family:"Bree Serif", serif;
+    font-size: 21px;
+    font-weight: 400;
+}
+
+.modal-body .rules li i{
+    color: #BB4120;
+}
+
+.modal-body .rules li{
+    font-size: 18px;
+}
+
+
+.circles span {
+    display: block;
+    width: 20px;
+    height: 20px;
+  }
+  
+  .circles span:nth-child(1) {
+    background-color: #f15f5d;
+  }
+  .circles span:nth-child(2) {
+    background-color: #febe2e;
+  }
+  .circles span:nth-child(3) {
+    background-color: #4db748;
+  }
+  
